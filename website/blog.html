@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vacation Website</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head>
+    <body>
+<section class="sub-header">
+    <nav>
+      <a href="index.html"><img src=""> <!--logo--></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="info.html">INFO</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Packages and Prices</h1>
+</section>
+
+<!--------- CONTENT --------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/cheetah.jpg" alt="">
+            <h2>Our Packages and Prices</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut porro eius nulla necessitatibus explicabo quia iure, numquam, quasi quos dignissimos officiis. Dolor incidunt harum temporibus, ab suscipit cupiditate qui. Ex temporibus ad hic! Asperiores quaerat voluptatum voluptate ex, libero quod iusto, dolore doloribus cumque officia, laboriosam sequi tenetur maiores velit.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid ex nam numquam reprehenderit saepe, ipsum, voluptates obcaecati facilis cupiditate assumenda maiores unde, et illum modi perspiciatis eaque fugiat iste animi repellat officiis quibusdam voluptate id! Officiis neque voluptate commodi placeat! Laboriosam inventore soluta repellendus vero beatae corporis saepe quia?</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, labore maxime esse numquam praesentium, consequatur corporis id quibusdam obcaecati odit ipsa, iste tempora debitis vero. Quas quidem expedita possimus ut blanditiis, et commodi deserunt quaerat harum laborum quod inventore fugit debitis adipisci voluptate quo provident! Accusamus eligendi nostrum incidunt quidem.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat beatae itaque maiores qui fugiat repellendus quaerat recusandae mollitia dolorem nihil nobis, perspiciatis fuga sint ipsum labore tempora dolor iure voluptatem autem natus ex corporis amet reprehenderit? Deleniti, incidunt culpa ipsum, quis sit amet eveniet architecto, commodi quae nihil voluptas possimus.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Categories</h3>
+            <div>
+                <span>Singles</span>
+                <span>R1500</span>
+            </div>
+            <div>
+                <span>Lovers</span>
+                <span>R2800</span>
+            </div>
+            <div>
+                <span>4 Friends</span>
+                <span>R5500</span>
+            </div>
+            <div>
+                <span>Group of 8</span>
+                <span>R10000</span>
+            </div>
+            <div>
+                <span>Luxury</span>
+                <span>R12000</span>
+            </div>
+            <div>
+                <span>Boujie</span>
+                <span>R15000</span>
+            </div>
+            <div>
+                <span>VIP</span>
+                <span>R20000</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Iste, consequuntur?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>
+         Made with <i class="fa fa-heart-o"></i> by Sindiswa Toli 
+    </p>
+</section>
+ 
+
+
+<!------ Javascript for Toggle Menu ------->       
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
