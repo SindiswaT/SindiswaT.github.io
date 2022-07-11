@@ -11,5 +11,10 @@ item.addEventListener('mouseover', activeLink));
 
 /* -------------------MENU TOGGLE--------------------- */
 let toggle = document.querySelector('.toggle');
-let navigation = document.querySelector('.nav');
+let nav = document.querySelector('.nav');
 let main = document.querySelector('.main');
+
+toggle.onclick = function(){
+    nav.classList.toggle('active');
+    main.classList.toggle('active');
+}
