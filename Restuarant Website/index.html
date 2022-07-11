@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="/style.css">
+    <title>Mbali's Kitchen</title>
+</head>
+<body>
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>SK</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+</header> 
+
+
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>spicy noodles</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing<br>elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="/img/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>fried chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing<br>elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="/img/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>hot pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="/img/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="/main.js"></script>
+</body>
+</html>
