@@ -91,6 +91,7 @@
 
 .header{
   background-image: linear-gradient(rgba(48,46,46,0.7),rgba(48,46,46,0.7)),url(/img/bgtech.jpg);
+  background: radial-gradient(rgb(189, 187, 187), #494949a9);
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -267,6 +268,7 @@ nav .fa{
 
 .about-me{
   background-image: linear-gradient(rgba(48,46,46,0.7),rgba(48,46,46,0.7)),url(/img/darkbg.jpg);
+  background: radial-gradient(rgb(114, 113, 113), rgb(65, 64, 64));
   background-position: center;
   background-size: cover;
 }
@@ -472,10 +474,10 @@ nav .fa{
   width: 80%;
 }
 .skills__js{
-  width: 60%;
+  width: 70%;
 }
 .skills__react{
-  width: 85%;
+  width: 50%;
 }
 
 .skills__java{
@@ -488,20 +490,14 @@ nav .fa{
   width: 80%;
 }
 .skills__pyt{
-  width: 85%;
+  width: 50%;
 }
 
 .skills__php{
-  width: 90%;
-}
-.skills__sql{
-  width: 80%;
-}
-.skills__node{
   width: 60%;
 }
-.skills__fire{
-  width: 85%;
+.skills__sql{
+  width: 60%;
 }
 
 
@@ -520,6 +516,7 @@ nav .fa{
     background-position: center;
     background-size: cover;
     height: 100%;
+    background: radial-gradient(rgb(189, 187, 187), #494949a9);
 }
 
 .port-text {
@@ -613,6 +610,7 @@ nav .fa{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background: radial-gradient(rgb(114, 113, 113), rgb(65, 64, 64));
 }  
 
 .cont-header{
