@@ -170,6 +170,7 @@ nav img{
     height: 68%;
     object-fit: cover;
     right: 70%;
+    border-radius: 72px;
 }
 
 .left-text-box .h-shape{
