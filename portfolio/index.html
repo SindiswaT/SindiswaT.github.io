@@ -1,79 +1,234 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio Website</title>
-        <link rel="stylesheet" href="styles/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet"/>
-        <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    </head>
-    <main>
-    <body>
-        <section class="header">
-            <nav>
-              <a href="index.html"><img src=""> <!--logo--></a>
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()"></i>
-                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-                        </div>
-                        <i class="fa fa-bars" onclick="showMenu()"></i>
-                    </nav>   
-                    
-        <div class="text-box">
-                <div class="left-text-box">
-                    <div class="h-shape"></div>
-                  <div class="image">
-                    <img src="img/sindi1.PNG" alt="" />
-                  </div>
-                </div>
-            <div class="right-text-box">
-            <h1>Sindiswa Toli</h1>
-            <h3>Software Development Graduate</h3>
-            <p>I am a 26 years old woman from Pretoria, South Africa. <br> I have a diploma in IT Software Development from IIE Varsity College. <br> I have had the opportunity to live in Congo and China therefore <br> I am open to relocating to a different city, province and/or country.</p>
-            
-            <div class="footer-container">
-              <div class="footer__socials">
-                <a href="https://www.linkedin.com/in/sindiswa-toli?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgrU4iQx0SaWaMVXvECvsCg%3D%3D" target="_blank" class="footer__social">
-                  <i class="uil uil-linkedin button__icon"></i>
-                </a>
-      
-                <a href="https://www.github.com/sindiswat" target="_blank" class="footer__social">
-                  <i class="uil uil-github button__icon"></i>
-              </a>
-      
-              <a href="#" target="_blank" class="footer__social">
-                  <i class="uil uil-youtube button__icon"></i>
-              </a>
-            </div>
-            </div>
-            
-            <div class="cv-button">
-            <a download="" href="document/Sindiswa Toli CV.docx" class="hero-btn">Dowload CV<i class="uil uil-download-alt"></i></a>
-            </div>
-          </div>
-        </div>   
-        </section>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  
+  <div class="header">
+    <h1>I am <span class="auto-input"></span></h1>
+    
+    <h3>Welcome to my site!</h3>
+    
+    <div class="buttons">
+      <a download="" href="document/Sindiswa Toli CV.docx" class="button button-flex">
+          Download CV<i class="fas fa-download button-icon"></i>
+      </a>
+  </div>
 
-        
+   <!--======================================== ABOUT ME =============================================-->
 
-    </main>
-    </body>
-    </html>
+  <div class="row">         
+    <div class="me-col">
+      <h1>About Me</h1>
+      <p>I am a Software Development Graduate. I love creating responsive websites, vlogging and traveling.</p> 
+    </div>
+
+    <div class="col-2">
+      <h1>Skills</h1>
+
+      <div class="skills">
+      <i class="fab fa-html5">
+        <small><br>HTML</small>
+      </i>
+      <i class="fab fa-css3">
+        <small><br>CSS</small>
+      </i>
+      <i class="fab fa-js-square">
+        <small><br>Javascript</small>
+      </i>
+    
+      <i class="fab fa-java">
+        <small><br>Java</small>
+      </i>
+      <i class="fab fa-android">
+        <small><br>Android</small>
+      </i>
+      <i class="fab fa-c">
+        <small>C#</small>
+      </i>
+      </div>
+
+    </div>
+  </div>
+
+
+  </div>
+  
+
+  <!--======================================== PROJECTS =============================================-->
+
+  <div class="projects">
+
+  <div class="title">
+    <h2>Projects</h2>
+    <p>
+      Here are some Frontend projects I've done in HTML, CSS and Javascript
+    </p>
+  </div>
+
+  <div class="portfolios">
+
+    <div class="portfolio-item">
+      <div class="image">
+        <img src="img/port1.jpeg" alt="" />
+      </div>
+
+      <div class="hover-items">
+        <h3>E-commerce Makeup Store</h3>
+        <div class="icons">
+          <a href="sindiswat.github.io/commerce" target="_blank" class="icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <div class="image">
+        <img src="img/port2.jpeg" alt="" />
+      </div>
+      <div class="hover-items">
+        <h3>Tourism Website</h3>
+        <div class="icons">
+          <a href="sindiswat.github.io/tourism" target="_blank" class="icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <div class="image">
+        <img src="img/port3.jpeg" alt="" />
+      </div>
+      <div class="hover-items">
+        <h3>Online Restuarant</h3>
+        <div class="icons">
+          <a href="sindiswat.github.io/restuarant" target="_blank" class="icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <div class="image">
+        <img src="img/webdev.jpg" alt="" />
+      </div>
+      <div class="hover-items">
+        <h3>Admin Dashboard</h3>
+        <div class="icons">
+          <a href="sindiswat.github.io/dashboard" target="_blank" class="icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+
+<!--======================================== MORE INFO =============================================-->
+
+ <div class="contact">
+
+  <div class="title">
+    <h2>More Info</h2>
+    <p>
+      How to get in contact with me and some fun facts.
+    </p>
+  </div>
+
+  <div class="row">
+
+    <div class="col-1">
+
+      <div class="contact-item">
+        <div class="icon">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Location:</span>
+        </div>
+        <p>
+          Pretoria, South Africa
+        </p>
+      </div>
+      <div class="contact-item">
+        <div class="icon">
+          <i class="fas fa-envelope"></i>
+          <span>Email:</span>
+        </div>
+        <p>
+           sindiswatoli@gmail.com
+        </p>
+      </div>
+      <div class="contact-item">
+        <div class="icon">
+          <i class="fas fa-globe-africa"></i>
+          <span>Languages:</span>
+        </div>
+        <p>
+           English, isiXhosa, <br>SeTshwana, Chinese
+        </p>
+      </div>
+      <div class="contact-icons">
+        <div class="contact-icon">
+          <a href="www.github.com/sindiswat" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="www.linkedin.com/in/sindiswa-toli" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <div class="col-1">
+      <div class="fun-fact">
+          <i class="fas fa-home"></i>
+        <p>
+           Lived in Shanghai, China for 3 years
+        </p>
+      </div>
+
+      <div class="fun-fact">
+        <i class="fab fa-youtube"></i>
+      <p>
+         Started a youtube channel in 2021
+      </p>
+    </div>
+
+    <div class="fun-fact">
+      <i class="fas fa-tv"></i>
+    <p>
+       Love watching True Crime documentaries
+    </p>
+  </div>
+
+    </div>
+
+  </div>
+
+    </div>
+  </div>
+
+ </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

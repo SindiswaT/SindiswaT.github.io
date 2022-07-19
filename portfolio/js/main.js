@@ -1,33 +1,7 @@
-var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
- 
-/*==================== SERVICES MODAL ====================*/
-const modalViews = document.querySelectorAll('.services__modal'),
-      modalBtns = document.querySelectorAll('.services__button'),
-      modalCloses = document.querySelectorAll('.services__modal-close')
-
-let modal = function(modalClick) {
-    modalViews[modalClick].classList.add('active-modal')
-}
-
-modalBtns.forEach((modalBtn, i) =>{
-    modalBtn.addEventListener('click', () =>{
-       modal(i) 
-    })
+var typed = new Typed(".auto-input",{
+    strings: ["Sindiswa Toli.", "a Frontend Developer."],
+    typeSpeed: 100,
+    backSpeed: 10,
+    loop: true
 })
-
-modalCloses.forEach((modalClose) =>{
-    modalClose.addEventListener('click', () =>{
-        modalViews.forEach((modalView) =>{
-            modalView.classList.remove('active-modal')
-        })
-    })
-})
-
-
 
