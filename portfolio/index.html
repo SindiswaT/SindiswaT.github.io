@@ -7,228 +7,38 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="styles/styles.css">
   <title>My Portfolio</title>
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="current-page">Home</a></li>
+        <li><a href="about-me.html">About me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   </nav>
   
-  <div class="header">
-    <h1>I am <span class="auto-input"></span></h1>
+    <h1 class="sentence-one">I am</h1>
+    <h1 class="typing"><span class="auto-input"></span></h1>
     
     <h3>Welcome to my site!</h3>
     
-    <div class="buttons">
-      <a download="" href="document/Sindiswa Toli CV.docx" class="button button-flex">
-          Download CV<i class="fas fa-download button-icon"></i>
+    <div class="button-primary">
+      <a download="" href="document/Sindiswa Toli CV.docx" class="button">
+          Download CV <i class="fas fa-download"></i>
       </a>
-  </div>
-
-   <!--======================================== ABOUT ME =============================================-->
-
-  <div class="row">         
-    <div class="me-col">
-      <h1>About Me</h1>
-      <p>I am a Software Development Graduate. I love creating responsive websites, vlogging and traveling.</p> 
     </div>
-
-    <div class="col-2">
-      <h1>Skills</h1>
-
-      <div class="skills">
-      <i class="fab fa-html5">
-        <small><br>HTML</small>
-      </i>
-      <i class="fab fa-css3">
-        <small><br>CSS</small>
-      </i>
-      <i class="fab fa-js-square">
-        <small><br>Javascript</small>
-      </i>
-    
-      <i class="fab fa-java">
-        <small><br>Java</small>
-      </i>
-      <i class="fab fa-android">
-        <small><br>Android</small>
-      </i>
-      <i class="fab fa-c">
-        <small>C#</small>
-      </i>
-      </div>
-
-    </div>
-  </div>
-
-
-  </div>
+  </header>
   
-
-  <!--======================================== PROJECTS =============================================-->
-
-  <div class="projects">
-
-  <div class="title">
-    <h2>Projects</h2>
-    <p>
-      Here are some Frontend projects I've done in HTML, CSS and Javascript
-    </p>
-  </div>
-
-  <div class="portfolios">
-
-    <div class="portfolio-item">
-      <div class="image">
-        <img src="img/port1.jpeg" alt="" />
-      </div>
-
-      <div class="hover-items">
-        <h3>E-commerce Makeup Store</h3>
-        <div class="icons">
-          <a href="https://sindiswat.github.io/commerce" target="_blank" class="icon">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="portfolio-item">
-      <div class="image">
-        <img src="img/port2.jpeg" alt="" />
-      </div>
-      <div class="hover-items">
-        <h3>Tourism Website</h3>
-        <div class="icons">
-          <a href="https://sindiswat.github.io/tourism" target="_blank" class="icon">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="portfolio-item">
-      <div class="image">
-        <img src="img/port3.jpeg" alt="" />
-      </div>
-      <div class="hover-items">
-        <h3>Online Restuarant</h3>
-        <div class="icons">
-          <a href="https://sindiswat.github.io/restuarant" target="_blank" class="icon">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="portfolio-item">
-      <div class="image">
-        <img src="img/webdev.jpg" alt="" />
-      </div>
-      <div class="hover-items">
-        <h3>Admin Dashboard</h3>
-        <div class="icons">
-          <a href="https://sindiswat.github.io/dashboard" target="_blank" class="icon">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  </div>
-
-
-<!--======================================== MORE INFO =============================================-->
-
- <div class="contact">
-
-  <div class="title">
-    <h2>More Info</h2>
-    <p>
-      How to get in contact with me and some fun facts.
-    </p>
-  </div>
-
-  <div class="row">
-
-    <div class="col-1">
-
-      <div class="contact-item">
-        <div class="icon">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Location:</span>
-        </div>
-        <p>
-          Pretoria, South Africa
-        </p>
-      </div>
-      <div class="contact-item">
-        <div class="icon">
-          <i class="fas fa-envelope"></i>
-          <span>Email:</span>
-        </div>
-        <p>
-           sindiswatoli@gmail.com
-        </p>
-      </div>
-      <div class="contact-item">
-        <div class="icon">
-          <i class="fas fa-globe-africa"></i>
-          <span>Languages:</span>
-        </div>
-        <p>
-           English, isiXhosa, <br>SeTshwana, Chinese
-        </p>
-      </div>
-      <div class="contact-icons">
-        <div class="contact-icon">
-          <a href="www.github.com/sindiswat" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="www.linkedin.com/in/sindiswa-toli" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    
-
-    <div class="col-1">
-      <div class="fun-fact">
-          <i class="fas fa-home"></i>
-        <p>
-           Lived in Shanghai, China for 3 years
-        </p>
-      </div>
-
-      <div class="fun-fact">
-        <i class="fab fa-youtube"></i>
-      <p>
-         Started a youtube channel in 2021
-      </p>
-    </div>
-
-    <div class="fun-fact">
-      <i class="fas fa-tv"></i>
-    <p>
-       Love watching True Crime documentaries
-    </p>
-  </div>
-
-    </div>
-
-  </div>
-
-    </div>
-  </div>
-
- </div>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
