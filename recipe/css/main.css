@@ -617,8 +617,7 @@ Tags Page
 
 .tags-wrapper {
   display: grid;
-  gap: 2rem;
-  padding-bottom: 3rem;
+  gap: 3rem;
 }
 
 .tag {
