@@ -134,10 +134,11 @@ section{
 }
 .portfolios {
     display: flex;
+    flex-wrap: wrap;
   }
 .portfolio-item {
-    margin: 0 12px;
-    width: 30%;
+    margin: 0 12px 0 30px;
+    width: 20%;
   }
 .portfolio-item img {
     width: 100%;
