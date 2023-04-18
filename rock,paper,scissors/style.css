@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(134, 146, 158);
+}
+
+header h1{
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    background: #1F2937;
+    font-size: 3rem;
+}
+
+div{
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+h2{
+    color: royalblue;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 2.5rem;
+}
+.result{
+    color: rebeccapurple;
+}
+
+button{
+    font-size: 1.5rem;
+    color: blue;
+    top: 35%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+div ol{
+    list-style-position: inside;
+}
+ 
