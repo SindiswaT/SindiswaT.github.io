@@ -1,0 +1,60 @@
+body{
+    background: #ECFDF5;
+    text-align: center;
+}
+
+h2{
+    color: #252525;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+h2 span{
+    color: #10B981;
+    ;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.div-contain{
+    border: 1px solid green;
+    padding: 10px;
+}
+h4{
+    color: gray;
+    font-size: 1.2rem;
+}
+input{
+    font-size: 1rem;
+    background: #273549;
+    color: #10B981;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    height: 25px;
+    width: 400px;
+    text-align: center;
+}
+button{
+    color: whitesmoke;
+    background: #10B981;
+    font-size: 1rem;
+    border: none;
+    height: 42px;
+    width: 191px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    margin-top: 20px;
+}
+#btn2{
+    margin-left: 30px;
+}
+button:hover{
+    color: white;
+    background: #273549;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
